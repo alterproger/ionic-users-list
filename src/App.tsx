@@ -1,4 +1,5 @@
-import { IonApp, setupIonicReact } from '@ionic/react';
+import { IonApp, IonContent, setupIonicReact } from '@ionic/react';
+import { Header, UserList } from './components/components';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -21,6 +22,13 @@ import './theme/variables.css';
 
 setupIonicReact();
 
-const App: React.FC = () => <IonApp></IonApp>;
+const App: React.FC = () => (
+  <IonApp>
+    <Header />
+    <IonContent>
+      <UserList />
+    </IonContent>
+  </IonApp>
+);
 
 export default App;
