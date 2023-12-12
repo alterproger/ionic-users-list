@@ -1,3 +1,8 @@
+import {
+  type GetAllUsersResponseDto,
+  type UserResponseDto,
+} from '../types/types';
+
 const API = 'https://randomuser.me/api';
 
 const getAllUsers = async (): Promise<UserResponseDto[]> => {

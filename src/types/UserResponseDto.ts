@@ -10,3 +10,5 @@ type UserResponseDto = {
     thumbnail: string;
   };
 };
+
+export { type UserResponseDto };

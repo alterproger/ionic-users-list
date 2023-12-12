@@ -1,3 +1,5 @@
+import { type UserResponseDto } from './UserResponseDto';
+
 type GetAllUsersResponseDto = {
   results: UserResponseDto[];
   info: {
@@ -7,3 +9,5 @@ type GetAllUsersResponseDto = {
     version: string;
   };
 };
+
+export { type GetAllUsersResponseDto };
