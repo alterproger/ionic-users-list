@@ -1,0 +1,7 @@
+{
+  "name": "ionic-users-list",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
